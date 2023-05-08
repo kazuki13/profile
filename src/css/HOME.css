@@ -1,0 +1,80 @@
+/* 背景 */
+.background{
+  background: #fff;
+  box-shadow: 0 0 10px rgb(0, 200, 255);
+  margin: 26px auto 0;
+  padding: 24px;
+  position: relative;
+  width: 80%; 
+}
+
+
+
+
+
+/* 画像・名前 */
+.profile{
+  font-weight: bold;
+  display:flex;
+  justify-content: center;
+}
+  .image img{
+      width: 300px; /*画像サイズ指定*/
+      height: 300px;
+      display: inline-block;
+      margin:auto;
+      margin-right: 17px;
+  }
+  .title{
+      display: flex;
+      font-size:30px;
+      margin-top: 100px;
+  }
+
+
+
+/* スキル */
+.skill{
+  margin: auto;
+  width: 200px;
+  text-align: center;
+  size:20px;
+  background: linear-gradient(transparent 70%, #a7d6ff 70%);
+}
+
+.skill_title {
+    text-decoration: underline;
+    padding: 0;
+    size: 20px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.skill_title p{
+  position:relative;
+  font-size:20px;
+}
+.skill_detail{
+  font-weight: bold;
+  display:flex;
+  justify-content:center;
+}
+  .hr1 {
+    border-top: 1px solid #000;
+    margin-bottom: 10px;
+  }
+  .skill_detail .skill_name {
+    width: 100px;
+    margin:0 0;
+    font-size: 20px; 
+    margin-right:50px;
+
+  }
+  .skill_detail .skill_time {
+
+    top:35px;
+    margin: 0 0;
+    font-size: 20px;
+    margin-left:50px;
+    margin-right:50px;
+  }

@@ -1,0 +1,137 @@
+.header_logo{
+  margin:0;
+  font-size:30px;
+}
+video{
+  width: 60%;
+}
+.video_coment{
+  font-size:20px;
+  color:black;
+}
+
+
+// 開発チームの名前
+.heading_title {
+    color: rgb(0, 221, 0);
+    font-size:4rem;
+    font-weight: bold;
+    margin: 250px 0;
+    opacity: 0;
+    transform: translateY(-100px);
+    text-align: center;
+  }
+  .heading_φωτίζω{
+    color: rgb(0, 221, 0);
+    font-size:4rem;
+    margin:0 0;
+  }
+  .heading_φωτίζω2{
+    color: rgb(0, 221, 0);
+    font-size:2rem;
+    margin:0 0;
+  }
+  
+  .active {
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(0);
+  }
+
+
+// 簡単な説明
+.heading_explanation {
+    color: rgb(0, 221, 0);
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 400px 0;
+    opacity: 0;
+    transform: translateY(100px);
+    text-align: center;
+  }
+.heading_explanation_satoukibi{
+    color: rgb(0, 221, 0);
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 400px 0;
+    opacity: 0;
+    transform: translateY(100px);
+    text-align: center;
+}
+  .active {
+    opacity: 1;
+    transition: 1s;
+    transform: translateY(0);
+  }
+
+// チーム開発でやった事 （左：写真）
+.heading_text1 {
+    color: #0bd;
+    margin: 400px 0;
+    opacity: 0;
+    transform: translateX(-100px);
+    display: flex; /*横並び*/
+    margin-right:150px;
+    margin-left: 150px;
+
+  }
+  
+  .active {
+    opacity: 1;
+    transition: 1s;
+    transform: translateX(0);
+  }
+
+  /* 横並び */
+
+  .image img{
+    width: 450px; /*画像サイズ指定*/
+    height: 300px;
+    margin-right: 30px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .text {
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 23px;
+  }
+
+
+// チーム開発でやった事 （右：写真）
+  .heading_text2 {
+    color: #0bd;
+    margin: 400px 0;
+    opacity: 0;
+    transform: translateX(100px);
+    display: flex; /*横並び*/
+    margin-right:150px;
+    margin-left: 150px;
+
+  }
+  
+  .active {
+    opacity: 1;
+    transition: 1s;
+    transform: translateX(0);
+  }
+
+  /* 横並び */
+
+  .image2 img{
+    width: 450px; /*画像サイズ指定*/
+    height: 300px;
+    margin-left: 30px;
+    padding: 0;
+    overflow: hidden;
+    position: relative;
+  }
+  .text2 {
+    margin-right: 30px;
+    margin-top: 130px;
+    padding: 0;
+    font-size: 23px;
+  }
+
