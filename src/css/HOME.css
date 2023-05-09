@@ -18,7 +18,7 @@
   display:flex;
   justify-content: center;
 }
-  .image{
+  .image img{
       width: 300px; /*画像サイズ指定*/
       height: 300px;
       display: inline-block;
