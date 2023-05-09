@@ -15,7 +15,7 @@ class App extends React.Component {
   render(){
     return(
       <BrowserRouter>
-        <switch>
+        <Routes>
           <Route path={`/`} element={<Home />} />
           <Route path={`/Productions`} element={<Productions />} />
           <Route path={`/φωτίζω`} element={<Jetbot />} />
@@ -23,7 +23,7 @@ class App extends React.Component {
           <Route path={`/Face`} element={<Face />} />
           <Route path={`/satoukibi`} element={<Satoukibi />} />
           <Route path={`/other`} element={<Others />} />
-        </switch>
+        </Routes>
       </BrowserRouter>
     );
   };
