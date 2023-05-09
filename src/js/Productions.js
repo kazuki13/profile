@@ -20,28 +20,24 @@ function App() {
           <div class="entries">
             <div class="entry">
               <div class="title_name"><a  href="/φωτίζω">φωτίζω</a></div>
-              <div class="title_year"><a >2021年 4月～ 2022 2月</a></div>
               <div class="body">
                 <p> 机の除菌をするロボット</p>
               </div>
             </div>
             <div class="entry">
-              <div class="title_name big"><a  href="E-gate">E-gate</a></div>
-              <div class="title_year"><a >2021年 8月 ~ </a></div>
+              <div class="title_name big"><a  href="Egate">E-gate</a></div>
               <div class="body">
                 <p> azureを活用した自動顔認証システム</p>
               </div>
             </div>
             <div class="entry">
               <div class="title_name"><a  href="/satoukibi">サトウキビプロジェクト</a></div>
-              <div class="title_year"><a >2022 4月 ~</a></div>
               <div class="body">
                 <p> サンゴ礁を守るために、海への赤土の流出を防ぐ... </p>
               </div>
             </div>
             <div class="entry">
               <div class="title_name big"><a  href="/Face">顔認証</a></div>
-              <div class="title_year"><a >2022年 4月 ～ </a></div>
               <div class="body">
                 <p> 顔認証で自動的に玄関のドアを開けるシステム </p>
               </div>

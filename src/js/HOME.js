@@ -22,7 +22,7 @@ function App() {
       <div class = "background">
         <div class="profile">
               <figure class="image">
-                <img src= {murayama} />
+                <img src= {murayama} alt="description of image" />
               </figure>
               <div class="text">
                 <p class="title">
