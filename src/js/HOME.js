@@ -1,6 +1,7 @@
 
 import '../css/heder.css';
 import '../css/HOME.css';
+import murayama from './image/murayama.png';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
     <main class = "test">
       <div class = "background">
         <div class="profile">
-              <img src= "./murayama.png" alt="description of image" />
+              <figure class="image" alt="">
+                <img src= {murayama} />
+              </figure>
               <div class="text">
                 <p class="title">
                   村山一輝<br/>
