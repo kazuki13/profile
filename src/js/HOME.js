@@ -21,9 +21,7 @@ function App() {
     <main class = "test">
       <div class = "background">
         <div class="profile">
-              <figure class="image">
-                <img src= {murayama} alt="description of image" />
-              </figure>
+              <img src= {murayama} alt="description of image" />
               <div class="text">
                 <p class="title">
                   村山一輝<br/>
