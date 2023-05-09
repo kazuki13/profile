@@ -13,9 +13,6 @@ function App() {
             <ul class="header-list">
               <li class="header-item"><a href="/">HOME</a></li>
               <li class="header-item"><a href="/Productions">制作物</a></li>
-              <li class="header-item"><a href=""> </a></li>
-              <li class="header-item"><a href=""> </a></li>
-              <li class="header-item"><a href=""> </a></li>
             </ul>
           </nav>
         </header>
