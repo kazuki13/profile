@@ -1,4 +1,3 @@
-
 import '../css/heder.css';
 import '../css/HOME.css';
 import murayama from './image/murayama.png';
@@ -11,10 +10,10 @@ function App() {
       <h1 class="header-logo"><a href="/">村山一輝</a></h1>
 
       <nav class="header-nav">
-          <ul class="header-list">
+      <ul class="header-list">
               <li class="header-item"><a href="/">HOME</a></li>
               <li class="header-item"><a href="/Productions">制作物</a></li>
-          </ul>
+            </ul>
       </nav>
     </header>
 

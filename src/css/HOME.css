@@ -21,9 +21,6 @@
   .image img{
       width: 300px; /*画像サイズ指定*/
       height: 300px;
-      display: inline-block;
-      margin:auto;
-      margin-right: 17px;
   }
   .title{
       display: flex;

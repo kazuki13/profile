@@ -9,20 +9,18 @@ import Others from './js/others';
 import React from 'react'
 
 
-
-
 class App extends React.Component {
   render(){
     return(
       <BrowserRouter>
         <Routes>
           <Route path={`/`} element={<Home />} />
-          <Route path={`/Productions`} element={<Productions />} />
-          <Route path={`/φωτίζω`} element={<Jetbot />} />
-          <Route path={`/E-gate`} element={<Egate />} />
-          <Route path={`/Face`} element={<Face />} />
-          <Route path={`/satoukibi`} element={<Satoukibi />} />
-          <Route path={`/other`} element={<Others />} />
+          <Route path={`Productions`} element={<Productions />} />
+          <Route path={`φωτίζω`} element={<Jetbot />} />
+          <Route path={`E-gate`} element={<Egate />} />
+          <Route path={`Face`} element={<Face />} />
+          <Route path={`satoukibi`} element={<Satoukibi />} />
+          <Route path={`other`} element={<Others />} />
         </Routes>
       </BrowserRouter>
     );
