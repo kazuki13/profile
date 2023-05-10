@@ -9,12 +9,14 @@ video{
   font-size:20px;
   color:black;
 }
-
+.Component_active__pTJS8{
+  width: 100%
+}
 
 // 開発チームの名前
 .heading_title {
     color: rgb(0, 221, 0);
-    font-size:4rem;
+    font-size: 6vmax;
     font-weight: bold;
     margin: 250px 0;
     opacity: 0;
@@ -42,7 +44,7 @@ video{
 // 簡単な説明
 .heading_explanation {
     color: rgb(0, 221, 0);
-    font-size: 3.5rem;
+    font-size: 6vmax;
     font-weight: bold;
     margin: 400px 0;
     opacity: 0;
@@ -51,7 +53,7 @@ video{
   }
 .heading_explanation_satoukibi{
     color: rgb(0, 221, 0);
-    font-size: 3rem;
+    font-size: 6vmax;
     font-weight: bold;
     margin: 400px 0;
     opacity: 0;
@@ -71,9 +73,9 @@ video{
     opacity: 0;
     transform: translateX(-100px);
     display: flex; /*横並び*/
-    margin-right:150px;
-    margin-left: 150px;
-
+    margin-right:2%;
+    margin-left: 2%;
+    flex-wrap: wrap;
   }
   
   .active {
@@ -87,13 +89,14 @@ video{
   .image img{
     width: 450px; /*画像サイズ指定*/
     height: 300px;
-    margin-right: 30px;
+    margin-right: 40px;
     padding: 0;
     overflow: hidden;
     position: relative;
+
   }
   .text {
-    margin-left: 30px;
+    margin-left: 40px;
     margin-top: 10px;
     padding: 0;
     font-size: 23px;
@@ -107,9 +110,9 @@ video{
     opacity: 0;
     transform: translateX(100px);
     display: flex; /*横並び*/
-    margin-right:150px;
-    margin-left: 150px;
-
+    margin-right:2%;
+    margin-left: 2%;
+    flex-wrap: wrap;
   }
   
   .active {
