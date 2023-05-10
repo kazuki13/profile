@@ -76,6 +76,7 @@ video{
     margin-right:2%;
     margin-left: 2%;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .active {
@@ -100,6 +101,7 @@ video{
     margin-top: 10px;
     padding: 0;
     font-size: 23px;
+    width:450px;
   }
 
 
@@ -113,6 +115,7 @@ video{
     margin-right:2%;
     margin-left: 2%;
     flex-wrap: wrap;
+    justify-content: center;
   }
   
   .active {
@@ -131,10 +134,11 @@ video{
     overflow: hidden;
     position: relative;
   }
-  .text2 {
-    margin-right: 30px;
-    margin-top: 130px;
-    padding: 0;
-    font-size: 23px;
-  }
+    .text2 {
+      margin-left: 40px;
+      margin-top: 10px;
+      padding: 0;
+      font-size: 23px;
+      width:450px;
+    }
 
