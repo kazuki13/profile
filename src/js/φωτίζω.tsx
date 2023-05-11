@@ -1,8 +1,9 @@
 import { useIntersectionObserver } from './hooks/use-intersection-observer'
-import { FC, useRef } from 'react'
+import React,{ FC, useRef, useEffect } from 'react'
 import styles from '../css/Component.module.scss'
-import ano from './image/satoukibi_ano.png'
-import Egate_vue from './image/E-gate_vue.png'
+import jetbot from './image/jetbot.png'
+import jetbot_image from './image/jetbot2.png'
+import jetbot_nano from './image/Jetbot_nano.mp4'
 // カスタムフックに渡すコールバック関数
 const showElements = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
@@ -29,9 +30,14 @@ const Component: FC = () => {
   const ref2 = useRef<HTMLHeadingElement>(null)
   const ref3 = useRef<HTMLHeadingElement>(null)
   const ref4 = useRef<HTMLHeadingElement>(null)
+  const ref5 = useRef<HTMLHeadingElement>(null)
+  const videoRef = useRef<HTMLVideoElement>(null);
+  useEffect(() => {
+      videoRef.current?.play();
+  }, []);
 
   // カスタムフックを呼ぶ
-  useIntersectionObserver([ref1, ref2, ref3, ref4], showElements)
+  useIntersectionObserver([ref1, ref2, ref3, ref4, ref5], showElements)
 
   return (
     <>
@@ -49,23 +55,31 @@ const Component: FC = () => {
         コロナ感染を予防する
       </h2>
       <div className={styles.heading_text1} ref={ref3}>
-        <figure className={styles.image}><img src={ano} alt=""/></figure>
+        <figure className={styles.image}><img src={jetbot_image} alt=""/></figure>
         <div className={styles.text}>
-          <h2>動画制作</h2>
+          <h2>動作</h2>
           <p>
-            展示会に向け来校者に伝わりやすいように、FilmForthで動画の作成をしました。
-            よりわかりやすい動画を制作するために、先生や友達に協力をいただきシュミレーション映像を組み込みました。
+            机からjetbotが落ちないように、走って大丈夫なところダメなところを機械学習させました。
+            全体を掃除できるよう、曲がる角度を調整しました。
           </p>
         </div>
       </div>
       <div className={styles.heading_text2} ref={ref4}>
         <div className={styles.text}>
-          <h2>動画制作</h2>
+          <h2>設計</h2>
           <p>
-              展示会後、フロントエンド側で顔の認識・写真の保存・azureへの送信をvue.jsを活用し開発を進めました
+            除菌シートの摩擦により動作しない場合があったので、角度や除菌シートの枚数を調整しました。
           </p>
         </div>
-        <figure className={styles.image2}><img src={Egate_vue} alt=""/></figure>
+        <figure className={styles.image2}><img src={jetbot} alt=""/></figure>
+      </div>
+      <div className={styles.heading_explanation_satoukibi} ref={ref5}>
+        <React.StrictMode>
+          <video muted ref={videoRef} >
+            <source src={jetbot_nano} type="video/mp4" />
+          </video>
+        </React.StrictMode>
+        <p className={styles.video_coment}>作成中の動画になります。</p>
       </div>
     </>
   )

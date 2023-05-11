@@ -1,8 +1,8 @@
 import { useIntersectionObserver } from './hooks/use-intersection-observer'
 import { FC, useRef } from 'react'
 import styles from '../css/Component.module.scss'
-import move from './image/move.png'
-import Egate_vue from './image/E-gate_vue.png'
+import face_login from './image/face_login.png'
+import face_data from './image/face_data.png'
 // カスタムフックに渡すコールバック関数
 const showElements = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
@@ -48,22 +48,26 @@ const Component: FC = () => {
         自動的に顔認証して出席をとるシステム
       </h2>
       <div className={styles.heading_text1} ref={ref3}>
-        <figure className={styles.image}><img src={move} alt=""/></figure>
+        <figure className={styles.image}><img src={face_data} alt=""/></figure>
         <div className={styles.text}>
-          <h2>アノテーション</h2>
+          <h2>顔認証</h2>
           <p>
-            雑草とサトウキビを分別するために、アノテーションで分類分けをしました
+            googleのdocumentや下記のurlを活用して、サポートをしつつopenCVでの開発を進めました。<br/>
+            （この開発は一年生のサポートとして参加しました）
           </p>
+          <a href= "https://www.youtube.com/watch?v=6mqVSe9n6gk">参考にしたYouTube</a>
         </div>
       </div>
       <div className={styles.heading_text2} ref={ref4}>
         <div className={styles.text}>
-          <h2>動画制作</h2>
+          <h2>ログイン機能</h2>
           <p>
-              展示会後、フロントエンド側で顔の認識・写真の保存・azureへの送信をvue.jsを活用し開発を進めました
+              Flask_loginを活用し、ログインしたユーザーの顔を認証しないように設定しました。ユーザーネームで顔認証を変更しています
           </p>
+          <a href= "https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-ja">参考にしたサイト</a>
+          
         </div>
-        <figure className={styles.image2}><img src={Egate_vue} alt=""/></figure>
+        <figure className={styles.image2}><img src={face_login} alt=""/></figure>
       </div>
     </>
   )

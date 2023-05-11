@@ -16,7 +16,7 @@ video{
 // 開発チームの名前
 .heading_title {
     color: rgb(0, 221, 0);
-    font-size: 6vmax;
+    font-size: 5vmax;
     font-weight: bold;
     margin: 250px 0;
     opacity: 0;
@@ -44,7 +44,7 @@ video{
 // 簡単な説明
 .heading_explanation {
     color: rgb(0, 221, 0);
-    font-size: 6vmax;
+    font-size: 5vmax;
     font-weight: bold;
     margin: 400px 0;
     opacity: 0;
@@ -53,7 +53,7 @@ video{
   }
 .heading_explanation_satoukibi{
     color: rgb(0, 221, 0);
-    font-size: 6vmax;
+    font-size: 5vmax;
     font-weight: bold;
     margin: 400px 0;
     opacity: 0;
@@ -103,6 +103,10 @@ video{
     font-size: 23px;
     width:450px;
   }
+  .text a{
+    color:rgb(0, 44, 221);
+    text-decoration: underline;
+  }
 
 
 // チーム開発でやった事 （右：写真）
@@ -140,5 +144,9 @@ video{
       padding: 0;
       font-size: 23px;
       width:450px;
+    }
+    .text2 a{
+      color:rgb(0, 44, 221);
+      text-decoration: underline;
     }
 

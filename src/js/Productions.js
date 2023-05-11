@@ -25,7 +25,7 @@ function App() {
               </div>
             </div>
             <div class="entry">
-              <div class="title_name big"><a  href="Egate">E-gate</a></div>
+              <div class="title_name big"><a  href="/Egate">E-gate</a></div>
               <div class="body">
                 <p> azureを活用した自動顔認証システム</p>
               </div>
