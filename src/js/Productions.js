@@ -46,9 +46,8 @@ function App() {
               <div class="title_name"><a href="/other">その他</a></div>
               <div class="body">
                 <p>
-                  ・顔認証<br/>
-                  ・LI-FE<br/>
-                  ・φωτίζω（ふぉてぃーぞ）
+                  ・漱石<br/>
+                  ・Wannyannet<br/>
                 </p>
               </div>
             </div>

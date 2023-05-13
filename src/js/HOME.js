@@ -1,6 +1,13 @@
 import '../css/heder.css';
 import '../css/HOME.css';
 import murayama from './image/murayama.png';
+import CPlus from './image/logo_c++.png';
+import python from './image/logo_python.png';
+import js from './image/logo_JavaScript.png';
+import django from './image/logo_django.png';
+import Flask from './image/logo_Flask.png';
+import vue from './image/logo_vuejs.png';
+import React from './image/logo_React.png';
 
 function App() {
   return (
@@ -35,10 +42,14 @@ function App() {
           <h1 class="skill">スキル</h1>
         </div>
         <div class="skill_title">
-          <p>フロントエンド</p>
+          <p>言語</p>
         </div>
-
-        <div class="skill_detail">
+        <div class="logo_language">
+          <img class="logo_language" src= {python} alt="test" />
+          <img class="logo_language" src= {js} alt="test" />
+          <img class="logo_language" src= {CPlus} alt="test" />
+        </div>
+        {/* <div class="skill_detail">
               <div class="text_title">
                   <p class="skill_name">技術</p><br/>   
                   <hr class="hr1"/>
@@ -60,11 +71,17 @@ function App() {
                   <p class="skill_time">ポートフォリオ</p><br/>
                   <p class="skill_time">忘れん坊</p><br/>       
               </div>              
-      </div>
+      </div> */}
       <div class="skill_title">
-          <p>バックエンド</p>
+          <p>フレームワーク</p>
       </div>
-      <div class="skill_detail">
+      <div class="logo_language">
+        <img src= {React} alt="test" />
+        <img src= {vue} alt="test" />
+        <img src= {django} alt="test" />
+        <img src= {Flask} alt="test" />
+      </div>
+      {/* <div class="skill_detail">
               <div class="text_title">
                   <p class="skill_name">技術</p><br/>   
                   <hr class="hr1"/>
@@ -83,7 +100,7 @@ function App() {
                   <p class="skill_time">顔認証</p><br/>
                   <p class="skill_time">顔認証</p><br/>       
               </div>              
-      </div>
+      </div> */}
             
       </div>
     </main>

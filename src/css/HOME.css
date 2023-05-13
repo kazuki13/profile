@@ -52,7 +52,19 @@
   position:relative;
   font-size:20px;
 }
-.skill_detail{
+.logo_language{
+  text-align: center;
+}
+.logo_language img{
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 70px;
+}
+
+
+
+
+/* .skill_detail{
   font-weight: bold;
   display:flex;
   justify-content:center;
@@ -75,4 +87,4 @@
     font-size: 20px;
     margin-left:50px;
     margin-right:50px;
-  }
+  } */

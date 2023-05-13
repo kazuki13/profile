@@ -1,8 +1,8 @@
 import { useIntersectionObserver } from './hooks/use-intersection-observer'
 import { FC, useRef } from 'react'
 import styles from '../css/Component.module.scss'
-import move from './image/move.png'
-import Egate_vue from './image/E-gate_vue.png'
+import souseki from './image/souseki.png'
+import Wannyannet from './image/Wannyannet.png'
 // カスタムフックに渡すコールバック関数
 const showElements = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
@@ -43,23 +43,22 @@ const Component: FC = () => {
         その他の作品
       </h2>
       <div className={styles.heading_text1} ref={ref2}>
-        <figure className={styles.image}><img src={move} alt=""/></figure>
+        <figure className={styles.image}><img src={souseki} alt=""/></figure>
         <div className={styles.text}>
-          <h2>動画制作</h2>
+          <h2>漱石</h2>
           <p>
-            展示会に向け来校者に伝わりやすいように、FilmForthで動画の作成をしました。
-            よりわかりやすい動画を制作するために、先生や友達に協力をいただきシュミレーション映像を組み込みました。
+            猫のご飯を置いておくさいに、別の猫に盗まれないようにするロボっト
           </p>
         </div>
       </div>
       <div className={styles.heading_text2} ref={ref3}>
         <div className={styles.text}>
-          <h2>動画制作</h2>
+          <h2>Wannyannet</h2>
           <p>
-              展示会後、フロントエンド側で顔の認識・写真の保存・azureへの送信をvue.jsを活用し開発を進めました
+              猫や犬が通う病院が変わった際などに、スムーズな診断ができるよう簡単にカルテのデータを共有できるサイト
           </p>
         </div>
-        <figure className={styles.image2}><img src={Egate_vue} alt=""/></figure>
+        <figure className={styles.image2}><img src={Wannyannet} alt=""/></figure>
       </div>
     </>
   )
