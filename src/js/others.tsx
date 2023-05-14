@@ -28,10 +28,9 @@ const Component: FC = () => {
   const ref1 = useRef<HTMLHeadingElement>(null)
   const ref2 = useRef<HTMLHeadingElement>(null)
   const ref3 = useRef<HTMLHeadingElement>(null)
-  const ref4 = useRef<HTMLHeadingElement>(null)
 
   // カスタムフックを呼ぶ
-  useIntersectionObserver([ref1, ref2, ref3, ref4], showElements)
+  useIntersectionObserver([ref1, ref2, ref3], showElements)
 
   return (
     <>

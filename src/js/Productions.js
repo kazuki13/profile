@@ -55,9 +55,9 @@ function App() {
         </main>
       </div>
       <footer class="footer">
-        <div>
-          フッターエリア
-        </div>
+        ポートフォリオ<br/>
+        ver: 1.0.0<br/>
+        （2023/05/14更新）
       </footer>
     </div>
   );
