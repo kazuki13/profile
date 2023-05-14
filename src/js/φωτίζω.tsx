@@ -50,7 +50,7 @@ const Component: FC = () => {
         <p className={styles.heading_φωτίζω2}>（フォティーゾ）</p>
         <h2 className={styles.heading_φωτίζω}>〜デスク自動除菌ロボット〜</h2><br/>
       </div>
-      <h2 className={styles.heading_explanation} ref={ref2}>
+      <h2 className={styles.heading_explanation_φωτίζω} ref={ref2}>
         jetbotを活用し<br/>
         コロナ感染を予防する
       </h2>

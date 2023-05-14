@@ -47,10 +47,10 @@ const Component: FC = () => {
       <h1 className={styles.header_logo}><a href="/">村山一輝</a></h1>
 
     </header>
-      <h2 className={styles.heading_title} ref={ref1}>
-        サトウキビプロジェクト<br/>
-        〜除草剤を撒く量を減らす開発〜
-      </h2>
+      <div className={styles.heading_title} ref={ref1}>
+        <h2 className={styles.heading_satoukibi}>サトウキビプロジェクト</h2>
+        <h2 className={styles.heading_satoukibi}>〜除草剤を撒く量を減らす開発〜</h2>
+      </div>
       <h2 className={styles.heading_explanation_satoukibi} ref={ref2}>
         珊瑚礁の生存を守るために<br/>
         AIを活用して除草剤の撒く量を減らし<br/>

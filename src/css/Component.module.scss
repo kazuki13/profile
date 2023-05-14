@@ -24,14 +24,40 @@ video{
     text-align: center;
   }
   .heading_φωτίζω{
-    color: rgb(0, 221, 0);
+    color: rgb(255, 251, 0);
+    -webkit-text-stroke: 1px #000000;
     font-size:4rem;
     margin:0 0;
   }
   .heading_φωτίζω2{
-    color: rgb(0, 221, 0);
+    color: rgb(255, 251, 0);
+    -webkit-text-stroke: 1px #000000;
     font-size:2rem;
     margin:0 0;
+  }
+  .heading_Egate{
+    color: rgb(255, 153, 0);
+    -webkit-text-stroke: 1px #f76d2d;
+    font-size:5vmax;
+    margin:0 0;
+
+  }
+  .heading_satoukibi{
+    font-size: 5vmax;
+    margin: 0 0;
+    background: -webkit-linear-gradient(0deg, rgb(26, 255, 0), rgb(0, 183, 255)); /* 背景色にグラデーションを指定 */
+    color: rgb(0, 255, 64); /* 非対応のブラウザの為に色を設定 */
+    background-clip: text; /* テキストで切り抜く */
+    -webkit-text-fill-color: transparent; /* 切り抜いた部分は背景を表示 */
+  }
+
+  .heading_face{
+    font-size: 5vmax;
+    margin: 0 0;
+    background: -webkit-linear-gradient(0deg, rgb(0, 85, 255), rgb(249, 240, 163)); /* 背景色にグラデーションを指定 */
+    color: rgb(0, 85, 255); /* 非対応のブラウザの為に色を設定 */
+    background-clip: text; /* テキストで切り抜く */
+    -webkit-text-fill-color: transparent; /* 切り抜いた部分は背景を表示 */
   }
   
   .active {
@@ -50,9 +76,33 @@ video{
     opacity: 0;
     transform: translateY(100px);
     text-align: center;
-  }
+}
+.heading_explanation_φωτίζω{
+  color: rgb(255, 251, 0);
+  -webkit-text-stroke: 1px #000000;
+  font-size: 5vmax;
+  font-weight: bold;
+  margin: 400px 0;
+  opacity: 0;
+  transform: translateY(100px);
+  text-align: center;
+}
+.heading_explanation_Egate{
+  color: rgb(255, 153, 0);
+  -webkit-text-stroke: 1px #f76d2d;
+  font-size: 5vmax;
+  font-weight: bold;
+  margin: 400px 0;
+  opacity: 0;
+  transform: translateY(100px);
+  text-align: center;
+}
 .heading_explanation_satoukibi{
-    color: rgb(0, 221, 0);
+    font-size: 5vmax;
+    background: -webkit-linear-gradient(0deg, rgb(26, 255, 0), rgb(0, 183, 255)); /* 背景色にグラデーションを指定 */
+    color: rgb(0, 255, 64); /* 非対応のブラウザの為に色を設定 */
+    background-clip: text; /* テキストで切り抜く */
+    -webkit-text-fill-color: transparent; /* 切り抜いた部分は背景を表示 */
     font-size: 5vmax;
     font-weight: bold;
     margin: 400px 0;
@@ -60,6 +110,20 @@ video{
     transform: translateY(100px);
     text-align: center;
 }
+.heading_explanation_face{
+  font-size: 5vmax;
+  background: -webkit-linear-gradient(0deg, rgb(0, 85, 255), rgb(249, 240, 163)); /* 背景色にグラデーションを指定 */
+  color: rgb(0, 85, 255); /* 非対応のブラウザの為に色を設定 */
+  background-clip: text; /* テキストで切り抜く */
+  -webkit-text-fill-color: transparent; /* 切り抜いた部分は背景を表示 */
+  font-size: 5vmax;
+  font-weight: bold;
+  margin: 400px 0;
+  opacity: 0;
+  transform: translateY(100px);
+  text-align: center;
+}
+
   .active {
     opacity: 1;
     transition: 1s;

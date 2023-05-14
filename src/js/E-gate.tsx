@@ -48,11 +48,11 @@ const Component: FC = () => {
       <h1 className={styles.header_logo}><a href="/">村山一輝</a></h1>
 
     </header>
-      <h2 className={styles.heading_title} ref={ref1}>
-        E-gate<br/>
-        ~自動出席システム〜
-      </h2>
-      <h2 className={styles.heading_explanation} ref={ref2}>
+      <div className={styles.heading_title} ref={ref1}>
+        <h2 className={styles.heading_Egate}>E-gate</h2>
+        <h2 className={styles.heading_Egate}>~自動出席システム〜</h2>
+      </div>
+      <h2 className={styles.heading_explanation_Egate} ref={ref2}>
         授業の時間を無駄にしないよう<br/>
         自動的に顔認証して出席をとるシステム
       </h2>
