@@ -2,7 +2,7 @@ import { useIntersectionObserver } from './hooks/use-intersection-observer'
 import { FC, useRef } from 'react'
 import styles from '../css/Component.module.scss'
 import face_login from './image/face_login.png'
-import face_data from './image/face_data.png'
+// import face_data from './image/face_data.png'
 // カスタムフックに渡すコールバック関数
 const showElements = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
@@ -13,6 +13,7 @@ const showElements = (entries: IntersectionObserverEntry[]) => {
     }
   })
 }
+
 export const ScrollToTop: React.FC = () => {
   return <div onClick={scroll} />;
 };
