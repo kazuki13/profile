@@ -48,7 +48,7 @@ const Component: FC = () => {
         自動的に顔認証して出席をとるシステム
       </h2>
       <div className={styles.heading_text1} ref={ref3}>
-        <figure className={styles.image}><img src={face_data} alt=""/></figure>
+        <figure className={styles.image}><img src='https://drive.google.com/file/d/1F_exEotiE6_nQvlZgUa4k9iiP_d2vNNO/view?usp=sharing' alt=""/></figure>
         <div className={styles.text}>
           <h2>顔認証</h2>
           <p>
