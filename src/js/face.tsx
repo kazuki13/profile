@@ -37,7 +37,6 @@ const Component: FC = () => {
     <>
     <header className={styles.header2}>
       <h1 className={styles.header_logo}><a href="/">村山一輝</a></h1>
-
     </header>
       <div className={styles.heading_title} ref={ref1}>
         <h2 className={styles.heading_face}>顔認証</h2>
