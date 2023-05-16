@@ -59,7 +59,7 @@ const Component: FC = () => {
       <div className={styles.heading_explanation} ref={ref3}>
       <React.StrictMode>
           <video muted ref={videoRef} >
-            <source src={Egate_move} type="video/mp4" />
+            <source src='https://drive.google.com/file/d/1F_exEotiE6_nQvlZgUa4k9iiP_d2vNNO/view?usp=sharing' type="video/mp4" />
           </video>
         </React.StrictMode>
       </div>

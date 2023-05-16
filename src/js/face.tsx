@@ -2,7 +2,7 @@ import { useIntersectionObserver } from './hooks/use-intersection-observer'
 import { FC, useRef } from 'react'
 import styles from '../css/Component.module.scss'
 import face_login from './image/face_login.png'
-// import face_data from './image/face_data.png'
+import face_data from './image/face_data.png'
 // カスタムフックに渡すコールバック関数
 const showElements = (entries: IntersectionObserverEntry[]) => {
   entries.forEach((entry) => {
@@ -13,7 +13,6 @@ const showElements = (entries: IntersectionObserverEntry[]) => {
     }
   })
 }
-
 export const ScrollToTop: React.FC = () => {
   return <div onClick={scroll} />;
 };
@@ -49,7 +48,7 @@ const Component: FC = () => {
         自動的に顔認証して出席をとるシステム
       </h2>
       <div className={styles.heading_text1} ref={ref3}>
-        <figure className={styles.image}><img src='https://drive.google.com/file/d/1F_exEotiE6_nQvlZgUa4k9iiP_d2vNNO/view?usp=sharing' alt=""/></figure>
+        <figure className={styles.image}><img src={face_data} alt=""/></figure>
         <div className={styles.text}>
           <h2>顔認証</h2>
           <p>
