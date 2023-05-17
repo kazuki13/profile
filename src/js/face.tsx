@@ -64,7 +64,6 @@ const Component: FC = () => {
               Flask_loginを活用し、ログインしたユーザーの顔を認証しないように設定しました。ユーザーネームで顔認証を変更しています
           </p>
           <a href= "https://www.digitalocean.com/community/tutorials/how-to-add-authentication-to-your-app-with-flask-login-ja">参考にしたサイト</a>
-          
         </div>
         <figure className={styles.image2}><img src={face_login} alt=""/></figure>
       </div>

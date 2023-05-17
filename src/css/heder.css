@@ -1,102 +1,5 @@
 @charset "UTF-8";
-
-/* ------------------------------ */
-/* リセットCSS */
-/* ------------------------------ */
-
-
-
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-}
-
-
-
-
-ol,
-ul {
-  list-style: none;
-}
-
-
-
-
-q:before,
-q:after {
-  content: "";
-}
-
-abbr,
-acronym {
-  border: 0;
-  font-variant: normal;
-}
-
-
-
-input,
-textarea,
-select,
-button {
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  line-height: inherit;
-  *font-size: 100%;
-  border-radius: 0;
-  border: none;
-  appearance: none;
-  -webkit-appearance: none;
-  background-color: inherit;
-}
-
-input,
-textarea,
-select {
-  font-size: 16px;
-}
-
-textarea {
-  resize: vertical;
-  display: block;
-}
-
-button {
-  padding: 0;
-  cursor: pointer;
-}
-
-legend {
-  color: #000;
-}
-
-
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-
-
-svg {
-  display: block;
-}
-
-
-
-
-
-html {
-  background-color: #fff;
-}
-
-
-
+/* mainのサイズの調節 */
 main {
   width: auto;
   height:auto;
@@ -106,6 +9,7 @@ main {
 
 }
 
+/* ヘッダーのサイズ・色の設定 */
 .header{
   padding: 16px 24px;
   background-color: #c8f0f8;
@@ -119,11 +23,14 @@ main {
   grid-template-columns: auto 1fr;
   align-items: center;
 }
+
+/* 名前 */
 .header-logo{
   font-weight: bold;
   font-size: 20px;
 }
 
+/* 項目 */
 .header-list{
   display: flex;
   align-items: center;
@@ -132,18 +39,18 @@ main {
   font-size: 16px;
   font-weight: bold;
 }
-/* .header-list:hover{
-  background-color: #ffeed8;
-} */
+  ol,
+  ul {
+    list-style: none;
+  }
 
-.header-item-contact{
-  background-color: #2486d1;
-  color:#fff;
-  padding: 6px 16px;
-  border-radius: 6px;
-  margin-top: auto;
-}
 
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+/* フッター */
 footer {
     background: #333333;
     text-align: center;

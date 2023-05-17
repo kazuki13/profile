@@ -1,17 +1,12 @@
+// ヘッダー
 .header_logo{
   margin:0;
   font-size:30px;
 }
-video{
-  width: 60%;
-}
-.video_coment{
-  font-size:20px;
-  color:black;
-}
-.Component_active__pTJS8{
-  width: 100%
-}
+
+// body{
+//   background-color: #d5943f39;
+// }
 
 // 開発チームの名前
 .heading_title {
@@ -25,13 +20,14 @@ video{
   }
   .heading_φωτίζω{
     color: rgb(255, 251, 0);
-    -webkit-text-stroke: 1px #000000;
+    -webkit-text-stroke: 0.5px #ff6905;
     font-size:4rem;
     margin:0 0;
   }
+  // 読み
   .heading_φωτίζω2{
     color: rgb(255, 251, 0);
-    -webkit-text-stroke: 1px #000000;
+    -webkit-text-stroke: 0.5px #ff6905;
     font-size:2rem;
     margin:0 0;
   }
@@ -79,7 +75,7 @@ video{
 }
 .heading_explanation_φωτίζω{
   color: rgb(255, 251, 0);
-  -webkit-text-stroke: 1px #000000;
+  -webkit-text-stroke: 0.5px #ff6905;
   font-size: 5vmax;
   font-weight: bold;
   margin: 400px 0;
@@ -129,6 +125,16 @@ video{
     transition: 1s;
     transform: translateY(0);
   }
+  
+
+// 動画
+video{
+  width: 60%;
+}
+.video_coment{
+  font-size:20px;
+}
+
 
 // チーム開発でやった事 （左：写真）
 .heading_text1 {
